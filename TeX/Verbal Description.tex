@@ -1,0 +1,118 @@
+\documentclass[notitlepage,reqno]{amsart}
+% Packages I'm using
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+\usepackage{fullpage}
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{fancyvrb}
+\usepackage{color}
+\usepackage{listings}
+
+% listings package parameters
+\lstset{
+  numbers=left,
+  basicstyle=\ttfamily\smaller,
+  breaklines=true
+}
+
+% Homework-specific information
+\newcommand{\hmwkTitle}{Eight Evolutionary Games on the Lattice}
+\newcommand{\hmwkAuthor}{Andrew Sannier}
+%\newcommand{\hmwkSubTitle}{}n
+%\newcommand{\hmwkDueDate}{}
+\newcommand{\hmwkClass}{}
+\newcommand{\hmwkClassTime}{}
+\newcommand{\hmwkInstructor}{Dr. Nicolas Lanchier}
+
+
+% Commonly-used stuff
+\newcommand{\pr}{\mathbb{P}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\seqx}{\{x_n\}_{n=0}^\infty}
+\newcommand{\seqy}{\{y_n\}_{n=0}^\infty}
+\newcommand{\seqa}{\{a_n\}_{n=0}^\infty}
+\newcommand{\seqb}{\{b_n\}_{n=0}^\infty}
+
+% Allowing easy statement of theorems and lemmas (requires amsthm)
+\newtheoremstyle{normal}
+	{3pt}			%space above
+	{3pt}			%space below
+	{}				%body font
+	{\parindent}	%indent amount
+	{\itshape}		%theorem head font
+	{}				%punctuation after theorem head
+	{ }		%space after theorem head
+	{}				%theorem head specification(??)
+\newtheorem{thm}{Theorem}
+\newtheorem*{thm*}{Theorem}
+\newtheorem{lem}{Lemma}
+\newtheorem*{lem*}{Lemma}
+
+% Margins and other formatting
+%\topmargin=0in
+%\leftmargin=-1in
+%\rightmargin=-1in
+\setlength{\parindent}{0in}
+\fvset{xleftmargin=2em}		%fancyvrb package allows indentation of all Verbatim environments
+
+% Setup the header and footer
+\pagestyle{fancy}
+\pagenumbering{empty}
+
+\lhead{\hmwkAuthor}
+\chead{\hmwkClass}
+\rhead{\hmwkInstructor\ / \hmwkTitle}
+\cfoot{}
+\addtolength{\headheight}{12pt}
+\setlength{\headsep}{0.125in}
+\renewcommand\headrulewidth{0.4pt}
+\renewcommand\footrulewidth{0pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Make Title
+\title{\huge{\textmd{\textbf{\hmwkClass\\\ \hmwkTitle}}}}
+\date{}
+\author{\textbf{\hmwkAuthor} \\
+\textmd{\hmwkInstructor}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\thispagestyle{fancy}
+
+\subsection*{Abstract}
+Traditionally, Evolutionary Game Theory models are based on mean-field
+model ordinary differential equations and, therefore, on two
+unrealistic assumptions: (1) that players are well-mixing, i.e., that
+any two players can interact with equal probability, and (2) that each
+interaction is deterministic. This thesis intends to shed light on a
+way to correct these two assumptions by reimagining the models,
+accounting for space and stochasticity. We place countably many players on an
+$\mathbb{Z}^d$ lattice and allow them to play games only with some set
+of nearest neighbors on each axis. Moreover, the games they play are
+not deterministic and are instead governed by one of eight stochastic
+processes that depend on the fitness of the neighboring players. In
+this way, we discover a number of surprising results that differ from
+those found in traditional models, perhaps most notably that, in some
+Prisoner's Dilemma situations, cooperation is the most successful strategy.
+
+\subsection*{Attempt at verbal description}
+We first establish the notion of the infinite lattice. We have a grid
+of countably many sites in $d$ dimensions, with the same cardinality
+of sites along each axis, indexed by the natural
+numbers. We let $\eta_t:\mathbb{Z}^d\to \{1,2\}$ be a function describing the state
+of our process at time $t$. That is, $\eta_t (x)$ is the strategy of
+the player at site $x$ and time $t$, which we indicate as either
+strategy 1 or strategy 2. We also define $N_i:\mathbb{Z}^d \times
+\mathbb{Z}\to \mathbb{Z}$ such that $N_i(x,t)$ is the number of players
+employing strategy $i$ at site $x$ and time $t$. Thus, $N_i(x,t) =
+|\{y\sim x:\eta_t(y)=i\}|$, where $y\sim x$ indicates that site $y$ is
+a neighbor of site $x$. With these two functions in hand, we update
+each site at rate ???
+
+
+\end{document}

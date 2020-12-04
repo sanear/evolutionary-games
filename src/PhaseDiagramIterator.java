@@ -1,5 +1,3 @@
-package com.thesis.gametheory;
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Vector;

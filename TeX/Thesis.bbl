@@ -1,0 +1,52 @@
+\begin{thebibliography}{1}
+
+\bibitem{website:ising-model}
+Helene Dauerty.
+\newblock Introduction to the {I}sing model, 2006.
+
+\bibitem{durrett}
+Rick Durrett and Philippe Biane.
+\newblock {\em Ten lectures on particle systems}, volume 1608 of {\em Lecture
+  Notes in Mathematics}.
+\newblock Springer Berlin / Heidelberg, 1995.
+\newblock 10.1007/BFb0095747.
+
+\bibitem{ohtsuki}
+Hisashi~Ohtsuki et~al.
+\newblock A simple rule for the evolution of cooperation on graphs and social
+  networks.
+\newblock {\em Nature}, 441:502--505, May 2006.
+
+\bibitem{glimm}
+James Glimm, John Impagliazzo, and Isadore Singer.
+\newblock {\em The Legacy of John von Neumann}.
+\newblock The American Mathematical Society, 1990.
+
+\bibitem{harris}
+T.E. Harris.
+\newblock Nearest-neighbor markov interaction processes on multidimensional
+  lattices.
+\newblock {\em Advances in Mathematics}, 9:66--89, 1972.
+
+\bibitem{hauert}
+Christoph Hauert.
+\newblock Effects of space in 2x2 games.
+\newblock {\em International Journal of Bifurcation and Chaos},
+  12(7):1531--1548, 2002.
+
+\bibitem{stanford}
+Steven Kuhn.
+\newblock Prisoner's dilemma.
+\newblock {\em The Stanford Encyclopedia of Philosophy}, Spring 2009.
+
+\bibitem{rubinstein}
+Ariel Rubinstein.
+\newblock {\em A Course in Game Theory}.
+\newblock MIT, 1994.
+
+\bibitem{vonNeumann}
+John von Neumann and Oskar Morgenstern.
+\newblock {\em Theory of Games and Economic Behavior}.
+\newblock Princeton University Press, 1953.
+
+\end{thebibliography}

@@ -11,7 +11,7 @@ import java.util.Random;
 public class Lattice
 {
 	// Defaults
-	protected static final int DEFAULT_SIZE = 100;
+	protected static final int DEFAULT_SIZE = 300;
 	protected static final double[][] DEFAULT_3STRATEGY_PAYOFF_MATRIX = {{1,1,1},{1,1,1},{1,1,1}};
 	protected static final double[][] DEFAULT_2STRATEGY_PAYOFF_MATRIX = {{1,1},{1,1}};
 	protected static final int DEFAULT_DIMENSIONS = 2;

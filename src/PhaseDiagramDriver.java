@@ -1,5 +1,3 @@
-package com.thesis.gametheory;
-
 import java.awt.image.BufferedImage;
 import java.awt.image.WritableRaster;
 import java.io.File;

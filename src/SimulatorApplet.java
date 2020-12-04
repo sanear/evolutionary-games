@@ -1,5 +1,3 @@
-package com.thesis.gametheory;
-
 import javax.swing.JApplet;
 
 import java.awt.Graphics;
