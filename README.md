@@ -22,10 +22,12 @@ This project is a testament to my user interface design skills. I have gotten no
 
 The payoff matrix grid on the simulator matches the matrices as written in the paper:
 
-a11 | a12
-a21 | a22
+<table>
+      <tr><td>a11</td><td>a12</td></tr>
+      <tr><td>a21</td><td>a22</td></tr>
+</table>
 
-I'll type the grids out as `[[a11, a21], [a21, a22]]`, in honor of mathematicians' maddening habit of insisting vectors be represented vertically, flying in the face of reasonable coordinate systems.
+I'll type the grids out as `[[a11, a21], [a21, a22]]`.
 
 This means that the payoff when both players choose strategy 1 is a11; the payoff when both players choose strategy 2 is a22; the payoff A receives for choosing strategy 1 while B chooses 2 is a12; and the payoff A receives for choosing strategy 2 while B chooses strategy 1 is a21.
 
