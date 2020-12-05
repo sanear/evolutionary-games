@@ -277,7 +277,7 @@ public class Simulator extends JFrame {
 	for (int i=0; i<payoffMatrixSpinners.length; i++) {
 	    for (int j=0; j<payoffMatrixSpinners[0].length; j++) {
 		payoffMatrixSpinners[i][j] = new JSpinner();
-		payoffMatrixSpinners[i][j].setModel(new SpinnerNumberModel(new Double(1), null, null, new Double(0.1)));
+		payoffMatrixSpinners[i][j].setModel(new SpinnerNumberModel(new Double(1), null, null, new Double(0.01)));
 		payoffMatrixSpinners[i][j].setMinimumSize(new Dimension(74,28));// Hardcoded dimensions are lame, but I don't have a choice
 		payoffMatrixSpinners[i][j].setPreferredSize(new Dimension(74,28));
 		GridBagConstraints gbc_spinner = new GridBagConstraints();

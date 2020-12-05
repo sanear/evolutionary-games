@@ -10,9 +10,9 @@ public class Lattice {
     // Defaults
     protected static final int DEFAULT_SIZE = 100;
     protected static final double[][] DEFAULT_3STRATEGY_PAYOFF_MATRIX = {{1,1,1},{1,1,1},{1,1,1}};
-    protected static final double[][] DEFAULT_2STRATEGY_PAYOFF_MATRIX = {{1,1},{1,1}};
+    protected static final double[][] DEFAULT_2STRATEGY_PAYOFF_MATRIX = {{6,3},{6,3}};
     protected static final int DEFAULT_DIMENSIONS = 2;
-    protected static final int DEFAULT_NUM_STRATEGIES = 3;
+    protected static final int DEFAULT_NUM_STRATEGIES = 2;
     protected static final int DEFAULT_INTERACTION_RANGE = 1;
     protected static final double[] DEFAULT_2STRATEGY_INIT_PROPORTION_MASKS = {1,1};
     protected static final double[] DEFAULT_3STRATEGY_INIT_PROPORTION_MASKS = {1,1,1};
